@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.JD-ZY/datapress",
+  "title": "datapress: UK & EU business data",
+  "description": "UK/EU/US tenders, Companies House + financials, EU registers, job boards, app stores, domain checks.",
+  "repository": {
+    "url": "https://github.com/JD-ZY/datapress-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/datapress",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=datapress/uk-government-tenders,datapress/global-tenders,datapress/uk-companies-house,datapress/eu-company-registers,datapress/company-job-boards,datapress/app-store-intel,datapress/domain-checker",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Your Apify API token, sent as 'Bearer <token>' (free account: console.apify.com/account/integrations)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
