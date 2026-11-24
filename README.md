@@ -1,5 +1,7 @@
 # datapress MCP server: UK & EU business data for AI agents
 
+[![datapress MCP connector](https://glama.ai/mcp/connectors/io.github.JD-ZY/datapress/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.JD-ZY/datapress)
+
 Give Claude, Cursor, VS Code, ChatGPT or any MCP client live access to **official public business data**:
 
 | Tool | What it returns |
